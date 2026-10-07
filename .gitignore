@@ -1,0 +1,30 @@
+# CMake build and install outputs
+/out/
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Local CMake presets and Visual Studio state
+CMakeUserPresets.json
+.vs/
+*.user
+*.suo
+
+# Compiled artifacts
+*.exe
+*.dll
+*.obj
+*.o
+*.lib
+*.a
+*.pdb
+*.ilk
+
+# Local environment files
+.env
+.env.*
+!.env.example
